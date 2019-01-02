@@ -4,9 +4,9 @@ const calculateTotalPoints = require('./calculateTotalPoints');
 describe('calculateTotalPoints', () => {
     describe('wind and gate change', () => {
         it('negative wind and negative gate', () => {
-            const actual = calculateTotalPoints(111, "normal", 98, [19,19,19,19,19.5], -14.4, -3.2);
+            const actual = calculateTotalPoints(106, "normal", 98, [18.5, 19, 18.5, 18.5, 18.5] , -12, -5);
     
-            const expected = 125.4;
+            const expected = 114.5;
     
             assert.equal(actual, expected);
         })
