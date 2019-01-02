@@ -1,0 +1,24 @@
+{
+  "name": "32.4.TestSkiJumping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajerMonika/32.4.TestSkiJumping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MajerMonika/32.4.TestSkiJumping/issues"
+  },
+  "homepage": "https://github.com/MajerMonika/32.4.TestSkiJumping#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
