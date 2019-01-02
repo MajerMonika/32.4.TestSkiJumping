@@ -4,15 +4,15 @@ const calculateDistancePoints = require('./calculateDistancePoints');
 describe('calculateDistancePoints', () => {
     describe('normal', () => {
         it('jump more than k-point', () => {
-            const actual = calculateDistancePoints(102, 'normal', 90);
+            const actual = calculateDistancePoints(111, 'normal', 98);
 
-            const expected = 84;
+            const expected = 86;
 
             assert.equal(actual, expected);
         })
       
         it('jump less than k-point', () => {
-            const actual = calculateDistancePoints(88.5, 'normal', 90);
+            const actual = calculateDistancePoints(96.5, 'normal', 98);
 
             const expected = 57;
 
@@ -20,7 +20,7 @@ describe('calculateDistancePoints', () => {
         })
       
         it('jump k-point', () => {
-            const actual = calculateDistancePoints(90, 'normal', 90);
+            const actual = calculateDistancePoints(98, 'normal', 98);
 
             const expected = 60;
 
